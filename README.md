@@ -1,5 +1,6 @@
 # SmoothCarve
 3D Engraving for the K40 laser cutter using Smoothieboard
+
 Licensed under GNU General Public License v3.0
 
 This is a very quick and dirty Matlab script to create GCodes for 3D engraving on my K40 'Blue Box' laser cutter. It requires that a Smoothieboard has been fitted to the laser in place of the standard Moshidraw type board (see: http://smoothieware.org/ for details). It also assumes that your origin (X0 Y0) is top left. Mine is, yours might not be. Apart from that it should work for any Smoothieboard based laser cutter.
