@@ -11,8 +11,6 @@ function [handles] = L2R(hObject, handles)
         if handles.InputArray(handles.y, i) == handles.InputArray(handles.y, handles.Previous)
             handles.xLength = handles.xLength + handles.PixelSize;
         else
-            %handles.CurrentPos = handles.CurrentPos + handles.xLength;
-         
             %Calculate the required laser power level
             handles = Gray2Power(hObject, handles);
          
