@@ -13,7 +13,6 @@ function [handles] = R2L(hObject, handles)
         if handles.InputArray(handles.y, i) == handles.InputArray(handles.y, handles.Next)
             handles.xLength = handles.xLength + handles.PixelSize;
         else
-            %handles.CurrentPos = handles.CurrentPos - handles.xLength;
             handles.xLength = 0 - handles.xLength;
          
             %Calculate the required laser power level
